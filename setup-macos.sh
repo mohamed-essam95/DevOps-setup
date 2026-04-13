@@ -13,4 +13,4 @@ brew install gh
 #----------------------------------#
 
 ## Setup Ansible
-brew 
+brew install ansible
