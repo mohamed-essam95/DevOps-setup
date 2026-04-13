@@ -93,6 +93,11 @@ sudo usermod -aG docker $USER
   sudo apt-get install -y kubectl
 
 #----------------------------------#
+## Setup Minikube
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb
+sudo dpkg -i minikube_latest_amd64.deb
+
+#----------------------------------#
 
 ## Setup AWS CLI
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
