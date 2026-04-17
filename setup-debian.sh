@@ -20,7 +20,7 @@ git config --global user.email "mohamed.essam955559@gmail.com"
 	&& sudo apt install gh -y
 
 sudo apt update
-sudo apt install gh
+sudo apt install gh -y
 
 #----------------------------------#
 
@@ -60,8 +60,8 @@ sudo apt update
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 
 # To install a specific version, list the available versions in the repo, then select and install:
-sudo systemctl status docker
-sudo systemctl start docker
+# sudo systemctl status docker
+# sudo systemctl start docker
 
 # Verify that Docker Engine is installed correctly by running the hello-world image:
 sudo docker run hello-world
