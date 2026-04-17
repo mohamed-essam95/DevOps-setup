@@ -59,10 +59,6 @@ sudo apt update
 # To install the latest version, run:
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 
-# To install a specific version, list the available versions in the repo, then select and install:
-# sudo systemctl status docker
-# sudo systemctl start docker
-
 # Verify that Docker Engine is installed correctly by running the hello-world image:
 sudo docker run hello-world
 
